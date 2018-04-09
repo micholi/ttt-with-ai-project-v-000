@@ -18,4 +18,5 @@ if game.over?
       puts "Bye, Felicia!"
     else
     end
+  end
 end
