@@ -5,10 +5,16 @@ class TicTacToeCLI
 require_relative '../config/environment'
 
 puts "Welcome to Tic Tac Toe!"
-game = Game.new
-game.play
+#game = Game.new
+#game.play
 
+def menu
+  puts "Please choose from the menu options below:"
+  puts "0. Watch the computer play itself."
+  puts "1. Play against the computer."
+  puts "2. Play against a friend."
 
+end
 
 if game.over?
   play_again = ""
