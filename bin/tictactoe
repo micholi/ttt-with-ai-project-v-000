@@ -12,13 +12,15 @@ game.play
 
 if game.over?
   play_again = ""
-  until play_again == "n"
-    puts "Would you like to play again? (y/n)"
+  until play_again == "no" || play_again == "n"
+    puts "Would you like to play again?"
+    puts "Type 'yes' or 'y' to continue."
+    puts "Type 'no' or 'n' to end the game."
       play_again = gets.strip
-    if play_again == "y"
+    if play_again == "yes" || play_again == "y"
       game = Game.new
       game.play
-    elsif play_again == "n"
+    elsif play_again == "no" || play_again == "n"
       puts "Bye Felicia!"
     end
   end
