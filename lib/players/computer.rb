@@ -5,7 +5,7 @@ module Players
 # Game::WIN_COMBINATIONS.detect do
 
     def move(board)
-      move = nil
+      move = ""
         if !board.taken?(5)
           move = "5"
         elsif board.turn_count == 1
