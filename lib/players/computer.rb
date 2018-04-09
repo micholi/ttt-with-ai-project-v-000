@@ -1,6 +1,9 @@
 module Players
   class Computer < Player
 
+
+# Game::WIN_COMBINATIONS.detect do
+
     def move(board)
       move = nil
         if !board.taken?(5)
