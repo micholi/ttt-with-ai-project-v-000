@@ -14,22 +14,13 @@ input = gets.strip.to_i
 
 if input == 0
   game = Game.new(Players::Computer.new("X"), Players::Computer.new("O"))
-
 elsif input == 1
   game = Game.new(Players::Human.new("X"), Players::Computer.new("O"))
-
 elsif input == 2
   game = Game.new(Players::Human.new("X"), Players::Human.new("O"))
-
 end
 
-#game = Game.new
 game.play
-
-
-
-
-
 
 if game.over?
   play_again = ""
