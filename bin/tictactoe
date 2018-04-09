@@ -3,6 +3,10 @@
 require_relative '../config/environment'
 
 puts "Welcome to Tic Tac Toe!"
-Board.display
 game = Game.new
 game.play
+
+if game.over
+  puts "Would you like to play again?"
+    play_again = gets.strip
+    
