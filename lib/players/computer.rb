@@ -5,7 +5,7 @@ module Players
       move = nil
         if !board.taken?(5)
           move = "5"
-        elsif
+        
         end
     end
 
