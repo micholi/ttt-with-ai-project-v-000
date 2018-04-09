@@ -10,6 +10,7 @@ puts "   1 - Play against the computer."
 puts "   2 - Play against a friend."
 puts ""
 puts "Please enter '0', '1', or '2' to start the game."
+input = gets.strip.to_i
 
 game = Game.new
 game.play
