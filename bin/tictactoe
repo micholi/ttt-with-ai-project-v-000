@@ -12,6 +12,17 @@ puts ""
 puts "Please enter '0', '1', or '2' to start the game."
 input = gets.strip.to_i
 
+if input == 0
+  game = Game.new(Players::Computer.new("X"), Players::Computer.new("O"))
+
+elsif input == 1
+
+elsif input == 2
+
+
+
+end
+
 game = Game.new
 game.play
 
