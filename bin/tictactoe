@@ -26,5 +26,16 @@ if game.over?
   end
 end
 
+  def computer_game
+
+  end
+
+  def one_player_game
+
+  end
+
+  def two_player_game
+
+  end
 
 end
