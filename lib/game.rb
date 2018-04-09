@@ -55,7 +55,7 @@ class Game
     player = current_player
     move = player.move(board)
     if !board.valid_move?(move)
-      puts "Invalid move"
+      puts "Invalid move. Try again."
       turn
     else
       board.update(move, player)
