@@ -9,8 +9,8 @@ puts "   1 - Play against the computer."
 puts "   2 - Play against a friend."
 puts "Please enter '0', '1', or '2' to start the game."
 
-#game = Game.new
-#game.play
+game = Game.new
+game.play
 
 
 
@@ -32,17 +32,3 @@ if game.over?
     end
   end
 end
-
-  def computer_game
-
-  end
-
-  def one_player_game
-
-  end
-
-  def two_player_game
-
-  end
-
-
