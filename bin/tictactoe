@@ -5,7 +5,10 @@ require_relative '../config/environment'
 puts "Welcome to Tic Tac Toe!"
 game = Game.new
 game.play
+if game.over?
+  play_again?
 
+def play_again?
 if game.over?
   play_again = ""
   until play_again == "n"
