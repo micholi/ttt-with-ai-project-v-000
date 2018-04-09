@@ -18,6 +18,9 @@ if game.over?
     elsif play_again == "n"
       puts "Bye, Felicia!"
     else
+      puts "Invalid entry"
+      play_again
     end
   end
+end
 end
