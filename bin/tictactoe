@@ -23,7 +23,7 @@ elsif input == 2
 
 end
 
-game = Game.new
+#game = Game.new
 game.play
 
 
