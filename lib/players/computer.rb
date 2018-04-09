@@ -4,8 +4,9 @@ module Players
     def move(board)
       move = nil
         if !board.taken?(5)
-          move = "5"
-        
+          move = "5"  
+        elsif board.turn_count == 1
+          move = "1" || move = "3" || move = "7" || move = "9"
         end
     end
 
