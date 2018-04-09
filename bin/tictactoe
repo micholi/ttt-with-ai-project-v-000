@@ -2,7 +2,8 @@
 
 require_relative '../config/environment'
 
-puts "Welcome to Tic Tac Toe!"
+puts "WELCOME TO TIC TAC TOE!"
+puts ""
 puts "Game Options:"
 puts "   0 - Watch the computer play itself."
 puts "   1 - Play against the computer."
