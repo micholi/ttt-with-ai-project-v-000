@@ -3,16 +3,17 @@
 require_relative '../config/environment'
 
 puts "Welcome to Tic Tac Toe!"
-puts "Please choose from the menu options below:"
+puts "Game Options:"
 puts "   0 - Watch the computer play itself."
 puts "   1 - Play against the computer."
 puts "   2 - Play against a friend."
+puts "Please enter '0', '1', or '2' to start the game."
 
 #game = Game.new
 #game.play
 
 
-  
+
 
 
 
