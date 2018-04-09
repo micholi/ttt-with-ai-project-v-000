@@ -7,6 +7,12 @@ game = Game.new
 game.play
 
 if game.over
-  puts "Would you like to play again?"
+  puts "Would you like to play again? (y/n)"
     play_again = gets.strip
-    
+    if play_again == "y"
+      game.play
+    elsif play_again == "n"
+      puts "Bye, Felicia!"
+    else
+    end
+    end
