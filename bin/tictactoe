@@ -6,7 +6,6 @@ puts "Welcome to Tic Tac Toe!"
 game = Game.new
 game.play
 
-def play_again
 if game.over?
   play_again = ""
   until play_again == "n"
@@ -17,10 +16,6 @@ if game.over?
       game.play
     elsif play_again == "n"
       puts "Bye, Felicia!"
-    else
-      puts "Invalid entry"
-      play_again
     end
   end
-end
 end
