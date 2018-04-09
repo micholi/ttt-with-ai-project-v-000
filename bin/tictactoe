@@ -15,7 +15,7 @@ if game.over?
       game = Game.new
       game.play
     elsif play_again == "n"
-      puts "Ok, see you again soon!"
+      puts "Bye Felicia!"
     end
   end
 end
